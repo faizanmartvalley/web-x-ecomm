@@ -1,8 +1,21 @@
 {% extends "layouts/base.njk" %}
-
+{% block title %}Home | WEB-X{% endblock %}
 {% block content %}
-  <h1 style="padding:40px">
-    SSR TEST — {{ appName }}
-    SSR TEST — {{ tagline }}
-  </h1>
+    <home-slideshow></home-slideshow>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <brands-block></brands-block>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <categories-block></categories-block>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <products-carousel></products-carousel>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <banners-block></banners-block>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <sale-block></sale-block>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <posts-carousel></posts-carousel>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <products-columns></products-columns>
+    <div class="block-space block-space--layout--divider-nl"></div>
+    <block-features></block-features>
 {% endblock %}

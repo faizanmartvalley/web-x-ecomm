@@ -1,0 +1,11 @@
+{
+  "frontend/entries/layout.js": {
+    "file": "layout.js",
+    "name": "layout",
+    "src": "frontend/entries/layout.js",
+    "isEntry": true,
+    "css": [
+      "assets/layout.css"
+    ]
+  }
+}
