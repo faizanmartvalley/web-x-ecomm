@@ -21,7 +21,6 @@ export const createApp = () => {
   nunjucks.configure(path.join(process.cwd(), "src/web/views"), {
     autoescape: true,
     express: app,
-    // watch: process.env.NODE_ENV !== "production",
   });
 
   app.set("view engine", "njk");

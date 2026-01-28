@@ -3,7 +3,7 @@ import * as Sentry from "@sentry/node";
 
 export const errorMiddleware = (err, req, res, next) => {
   const statusCode = err.statusCode || 500;
-  const isProd = process.env.NODE_ENV === "production";
+  const isProd = process.env.NODE_ENV === "prod";
 
   logger.error({
     traceId: req.traceId,
