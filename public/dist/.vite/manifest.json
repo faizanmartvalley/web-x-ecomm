@@ -1,11 +1,37 @@
 {
+  "__plugin-vue_export-helper-Bsqa9KQm.js": {
+    "file": "chunks/_plugin-vue_export-helper-Bsqa9KQm.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "frontend/entries/home.js": {
+    "file": "home.js",
+    "name": "home",
+    "src": "frontend/entries/home.js",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-Bsqa9KQm.js"
+    ],
+    "css": [
+      "assets/layout.css"
+    ]
+  },
   "frontend/entries/layout.js": {
     "file": "layout.js",
     "name": "layout",
     "src": "frontend/entries/layout.js",
     "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-Bsqa9KQm.js"
+    ],
     "css": [
       "assets/layout.css"
+    ],
+    "assets": [
+      "assets/bmw.webp"
     ]
+  },
+  "public/images/brand/bmw.webp": {
+    "file": "assets/bmw.webp",
+    "src": "public/images/brand/bmw.webp"
   }
 }

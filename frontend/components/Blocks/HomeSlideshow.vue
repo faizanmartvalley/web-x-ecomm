@@ -55,7 +55,7 @@ export default {
         {
           id: 1,
           link: '#',
-          imageDesktop: 'images/slides/slide-3.jpg',
+          imageDesktop: '/public/images/slides/homeSlider-3.webp',
           imageMobile: 'images/slides/slide-3-mobile.jpg',
           offer: '30% OFF',
           title: 'When Buying Parts <br> With Installation',
@@ -65,7 +65,7 @@ export default {
         {
           id: 2,
           link: '#',
-          imageDesktop: 'images/slides/slide-2.jpg',
+          imageDesktop: '/public/images/slides/homeSlider.webp',
           imageMobile: 'images/slides/slide-2-mobile.jpg',
           offer: '',
           title: 'Not enough<br>spare parts?',
@@ -75,7 +75,7 @@ export default {
         {
           id: 3,
           link: '#',
-          imageDesktop: 'images/slides/slide-1.jpg',
+          imageDesktop: '/public/images/slides/homeSlider-3.webp',
           imageMobile: 'images/slides/slide-1-mobile.jpg',
           offer: '30% OFF',
           title: 'Big Choice Of<br>Wheel Tires',

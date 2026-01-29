@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/public/dist/',
   publicDir: false,
 
   resolve: {
@@ -26,6 +27,7 @@ export default defineConfig({
       input: {
         // Main layout entry (required for all pages)
         layout: resolve(__dirname, 'frontend/entries/layout.js'),
+        home: resolve(__dirname, 'frontend/entries/home.js'),
    
       },
       output: {

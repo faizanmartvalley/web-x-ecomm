@@ -13,9 +13,10 @@
     "#config/*": "./src/config/*"
   },
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run vite\"",
+    "dev": "concurrently \"npm run server\" \"npm run vite:watch\"",
     "server": "nodemon src/server.js",
     "vite": "vite",
+    "vite:watch": "nodemon --watch frontend --ext js,vue,css,scss --exec \"npm run build\"",
     "build": "vite build",
     "preview": "vite preview"
   },

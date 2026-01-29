@@ -30,9 +30,9 @@
             </a>
           </div>
           <div class="topbar__item-button">
-            <a href="" class="phone__body">
-              <div class="phone__title">Call Us:</div>
-              <div class="phone__number">800 060-0730</div>
+            <a href="" class="topbar__button">
+              <span class="topbar__button-label">Call Us:</span>
+              <span class="topbar__button-title">800 060-0730</span>
             </a>
           </div>
         </div>
@@ -281,7 +281,7 @@
           </div>
           <div class="logo__image">
             <!-- logo -->
-            <img :src="`/public/images/audi/audi.jpg`" alt="hello"  style="width: 100px;"/>
+            <img src="/public/images/brand/bmw.webp" alt="hello"  style="width: 50px;"/>
             <!-- logo / end -->
           </div>
         </a>
@@ -934,86 +934,52 @@ export default {
         {
           name: "Porsche",
           submenu: true,
-          megamenuSize: "lg",
+          megamenuSize: "sm",
           image: "images/departments/departments-1.jpg",
           columns: [
             {
-              width: "6",
+              width: "1of1",
               links: [
                 {
-                  title: "FOR CAYENNE",
+                  title: "FOR CAYENNE"
+                },
+                {
+                  title: "FOR PANAMERA"
+                },
+                {
+                  title: "FOR MECAN"
+                },
+                {
+                  title: "CAYMEN/BOXTAR"
                 },
               ],
             },
-            {
-              width: "6",
-              links: [
-                {
-                  title: "FOR PANAMERA",
-                },
-              ],
-            },
-            {
-              width: "6",
-              links: [
-                {
-                  title: "FOR MECAN",
-                },
-              ],
-            },
-            {
-              width: "6",
-              links: [
-                {
-                  title: "CAYMEN/BOXTAR",
-                },
-              ],
-            },
+            
           ],
         },
         {
           name: "Skoda",
           submenu: true,
-          megamenuSize: "md",
+          megamenuSize: "sm",
           image: "images/departments/departments-3.jpg",
           columns: [
             {
-              width: "6",
+              width: "1of1",
               links: [
                 {
-                  title: "OCTAVIA",
+                  title: "OCTAVIA"
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
-                  title: "KODIAQ",
+                  title: "KODIAQ"
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
-                  title: "LAURA",
+                  title: "LAURA"
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
-                  title: "RAPID",
+                  title: "RAPID"
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
-                  title: "SUPERB",
+                  title: "SUPERB"
                 },
               ],
             },
@@ -1022,44 +988,24 @@ export default {
         {
           name: "Volkswegan",
           submenu: true,
-          megamenuSize: "nl",
+          megamenuSize: "sm",
           image: "images/departments/departments-4.jpg",
           columns: [
             {
-              width: "6",
+              width: "1of1",
               links: [
                 {
                   title: "PASSAT",
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
                   title: "JETTA",
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
                   title: "POLO",
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
                   title: "TIGUAN",
                 },
-              ],
-            },
-            {
-              width: "6",
-              links: [
                 {
                   title: "GOLF",
                 },
@@ -1298,11 +1244,11 @@ export default {
         {
           name: "Jaguar",
           submenu: true,
-          megamenuSize: "md",
+          megamenuSize: "sm",
           image: "images/jaguar/jaguar.jpg", // update if needed
           columns: [
             {
-              width: "1of3",
+              width: "1of1",
               links: [
                 {
                   title: "FOR XF",
@@ -1310,22 +1256,12 @@ export default {
                 {
                   title: "JAGUAR - F TYPE",
                 },
-              ],
-            },
-            {
-              width: "1of3",
-              links: [
                 {
                   title: "FOR XJL",
                 },
                 {
                   title: "JAGUAR - I PACE",
                 },
-              ],
-            },
-            {
-              width: "1of3",
-              links: [
                 {
                   title: "FOR F PACE",
                 },
